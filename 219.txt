@@ -1,0 +1,63 @@
+cd - 경로변경 
+
+../ -한단계 전
+../../ -두단계 전
+
+ls - 현재 위치에 있는 폴더 확인
+ls -l : 상세히 확인
+ls -a : 숨긴목록까지 보여주세요
+ls -al : 숨긴 목록까지 자세히 보여주세요
+
+mkdir - 폴더 생성
+touch - 파일 생성
+
+rm : 파일 삭제
+rm-r : 폴더 삭제
+rm -rf : 
+
+ctrl+s 저장
+
+cat : 파일 전체 내용 확인
+head : 파일 내용 확인 (상위 10줄만 보여줌)
+ *head -3 : 위에서부터 3줄 확인
+tail : " 하위 10줄만 끝에서부터 10줄
+
+vi : 편집기
+insert : 내용추가 (i 누르면 됨)
+esc키 : 취소 
+shift+:wq : 저장하고 나오겠습니다
+
+vi aaa.txt : aaa라는 파일 생성
+dd : 한줄 삭제
+:wq - 저장하고 나가기
+:q! - 강제로 빠져나가기
+pwd: 현재 위치dir
+
+git init : 특정 폴더 기록(git 시작)
+
+ctrlz, ctrlc 빠져나올떄
+
+git status : 현재 상태 확인
+git add 파일명 : 파일 관리하고싶을때
+git commit : 저장
+git config --global user.name- 이름 등록
+git config --global user.email - 메일 등록
+git log - 기록 확인
+
+git commit -m "@@@" : 파일 안에 내용 입력
+git remote add @ 주소 : 원격지 추가
+git remote -v : 주소연결확인
+git remote rm @: 원격지 삭제
+git add --all 현재 만들어진 모든 것 add 한다는 뜻
+git log --oneline 간략하게 보겠습니다.
+git push 깃허브에 올리는 방법
+ *git push -u origin master 처음에 올릴 때 한번만 씀
+
+git add ./ 현재 위치의 모든 값들을 add하겠습니다.
+
+touch .gitignore
+
+vi .gitignore 해당 파일 숨김처리
+
+git commit -am     add와 commit을 한번에
+
